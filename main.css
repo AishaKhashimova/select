@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.container{
+    max-width: 100%;
+    width: 85%;
+    margin: 0 auto;
+}
+header{
+    padding: 17px 0;
+    background-color:rgb(21, 20, 42);
+}
+.leftcard-header{
+    display: flex;
+    gap: 20px;
+}
+.rightcard-header{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.header-h1{
+    font-size: 24px;
+    color: white;
+}
+select{
+    font-size: 18px;
+    background: none;
+    border: none;
+    color: white;
+    
+}
+option:hover{
+    background-color: rgba(191, 175, 242, 1) ;
+}
+option{
+    font-size: 10px;
+    padding: 3px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+
+}
+.header-link{
+    font-size: 18px;
+    color: white;
+}
+.header-btn{
+    font-size: 18px;
+    border: none;
+    border-radius: 15px;
+    background-color: rgba(191, 175, 242, 1);
+    padding: 15px 40px;
+    color: white;
+}
+.allcard-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+section{
+    background-color:rgb(17, 16, 34) ;
+}
+.box-main{
+    width: 300px;
+    text-align: center;
+    background-color: rgba(35, 32, 40, 1);
+    border-radius: 20px;
+    padding: 100px 0 20px 0;
+}
+.main-h2{
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: white;
+}
+.main-text{
+    font-size: 14px;
+    width: 290px;
+    color: white;
+}
+.img1{
+    position: relative;
+    top: 50px;
+    left: 20px;
+    animation-name: img;
+    animation-duration: 3s;
+    animation-delay: 0ms;
+    animation-iteration-count: infinite;
+}
+@keyframes img {
+    0%{
+        bottom: 20px;
+        top: 20px;
+    
+        
+    }
+   
+    
+
+}
+.main-cardall{
+    padding: 100px 0;
+    display: flex;
+    justify-content: space-between;
+}
+footer{
+    padding: 17px 0;
+    background-color:rgb(21, 20, 42);
+}
